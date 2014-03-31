@@ -64,9 +64,7 @@ public class VideoPlayerActivity extends Activity {
                                     .translationY(visible ? 0 : mControlsHeight)
                                     .setDuration(mShortAnimTime);
                         } else {
-                            // If the ViewPropertyAnimator APIs aren't
-                            // available, simply show or hide the in-layout UI
-                            // controls.
+
                             controlsView.setVisibility(visible ? View.VISIBLE : View.GONE);
                         }
 
